@@ -10,7 +10,6 @@ const notFoundMessageStyle = chalk.red.bold;
 const getNotes = () => {
     const notes = loadNotes();
     console.log(successMessageStyle("Your notes :"));
-    debugger
     notes.forEach((note) => console.log(note));
 }
 
